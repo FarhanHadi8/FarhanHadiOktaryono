@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-logo">PORTOFOLIO</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#more">More</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Farhan Hadi Oktaryono</h1>
+        <p>Web Development & Technical Writing | Open to Opportunities</p>
+        <a href="https://drive.google.com/file/d/1rimP7r1RThjyQZDKkbi-0EDCC7ysE5Oc/view?usp=sharing" class="cta">Resume</a>
+      </main>
+    </section>
+
+    <section class="about" id="about">
+      <h1>ABOUT</h1>
+      <p class="email">farhanhadi690@gmail.com</p>
+      <p class="description" data-aos="fade-right" data-aos-offset="270" data-aos-delay="400">
+        Hello, I'm Farhan 👋 — I am a fresh graduate of Informatics from Gunadarma University with experience in Web Development and Technical Writing. 
+        I enjoy building functional web solutions and creating clear, structured technical documentation that helps users and learners understand complex concepts. 
+        Open to new opportunities and roles that encourage continuous learning and growth in a dynamic environment.
+      </p>
+      <p class="address">Dukuh V, Kramat Jati <br /><span class="location">East Jakarta</span></p>
+      <div class="profile-image" data-aos="fade-left" data-aos-offset="310" data-aos-delay="200"></div>
+    </section>
+
+    <section class="resume-section" id="resume">
+      <div class="education-container" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="400">
+        <div class="education">
+          <h1>Education</h1>
+        </div>
+        <div class="education-content">
+          <h2>Gunadarma University</h2>
+          <p class="degree">Bachelor's Degree in Informatics</p>
+          <p class="duration">Sep 2021 - Sep 2025</p>
+          <span class="gpa-badge">GPA: 3.72 / 4.00</span>
+        </div>
+        <div class="university-logo">
+          <img src="./asset/gundar.jpg" alt="University Logo" />
+        </div>
+      </div>
+
+      <div class="experiance-container" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="500">
+        <div class="experiance">
+          <h1>Experience</h1>
+        </div>
+        <div class="experience-content">
+          <div class="work-experiance">
+            <h2>Work Experience</h2>
+            <p>Content Developer & Technical Writer | Informatics Laboratory, Gunadarma University | June 2025 - Present</p>
+            <ul>
+              <li>Worked as a content developer responsible for creating modules and practical questions for the Informatics laboratory.</li>
+              <li>Wrote clear, structured, and instructional documentation to explain programming and computer science concepts.</li>
+              <li>Designed practice questions and step-by-step guides to support student learning outcomes.</li>
+              <li>Collaborated with lecturers and teaching assistants to review technical accuracy and curriculum alignment.</li>
+              <li>Enhanced skills in instructional design, technical writing, and problem-solving while contributing to student learning outcomes.</li>
+            </ul>
+          </div>
+
+          <div class="studi-independen">
+            <h2>Studi Independen Dicoding Cycle 6</h2>
+            <p>Participant | Dicoding Indonesia x Kampus Merdeka | February 2024 – June 2024</p>
+            <ul>
+              <li>Participated in a talent development program focused on Front-End and Back-End Web Development, aligned with industry standards.</li>
+              <li>Learned core web development skills, including HTML, CSS, JavaScript, and version control using Git and GitHub.</li>
+              <li>Gained proficiency in Front-End Development fundamentals and Back-End Development with JavaScript.</li>
+              <li>
+                Completed web development projects, including:
+                <ul class="project">
+                  <li>Restaurant Catalog Page: Developed a responsive restaurant catalog page for various devices</li>
+                  <li>Notes App: Created a note-taking app using CSS Grid Layout and Web Components.</li>
+                  <li>Bookkeeping Application: Built a simple bookkeeping application for data management</li>
+                </ul>
+              </li>
+              <li>Enhanced problem-solving skills, coding best practices, and teamwork in software development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="certificate-container" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="400">
+        <div class="certificate">
+          <h1>Certificate</h1>
+        </div>
+
+        <div class="certificate-card">
+
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>
+                Completed the Junior Web Programmer Certification Program, 
+                Conducted by the Indonesian Professional Certification Authority (BNSP)
+              </h2>
+              <p>June 2025</p>
+              <a href="https://drive.google.com/file/d/1rKuLXnxpjtxvx9W_X9K9wkfReAHMyDzt/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the Building Website using HTML 5 Course Program</h2>
+              <p>November 2024</p>
+              <a href="https://drive.google.com/file/d/1cn7cgBCcNHRrBPO5H0WZUETgjCNRAiOR/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the Basic Web Application Design Course Program</h2>
+              <p>September 2024</p>
+              <a href="https://drive.google.com/file/d/1O8h9qfNwq2EYutL-rQ9oYGQXgZ_v6NNO/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the C# For Intermediate Course Program</h2>
+              <p>August 2024</p>
+              <a href="https://drive.google.com/file/d/18XxD80C-CThkMG_52oVJnPs59yzmQpUK/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the Studi Independen Dicoding Cycle 6 (Front-End and Back-End Web Development Program)</h2>
+              <p>June 2024</p>
+              <a href="https://drive.google.com/file/d/135ArpFtEXdS9bzao3rdc-SMMCLZQTgQV/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the Golang For Intermediate Course Program</h2>
+              <p>February 2024</p>
+              <a href="https://drive.google.com/file/d/1TxxrBpACy8vhmjhMSfM7RNmD2hPN7okU/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the C# For Beginner Course Program</h2>
+              <p>August 2023</p>
+              <a href="https://drive.google.com/file/d/1NajcBzybvWHZ_ZQPLt19BjWP6A7UpjD0/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the Golang For Beginner Course Program</h2>
+              <p>February 2023</p>
+              <a href="https://drive.google.com/file/d/1H720LlTHJm4LQ0ohAkSc9GNeoNU2cn9E/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the Web Fundamental Course Program</h2>
+              <p>August 2022</p>
+              <a href="https://drive.google.com/file/d/1qVuqnnHC-IZXre4KI1TGqLAbUyhqjVPK/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i data-feather="check"></i>
+            </div>
+            <div class="certificate-info">
+              <h2>Completed the Networking Fundamental Course Program</h2>
+              <p>February 2022</p>
+              <a href="https://drive.google.com/file/d/1udBs7mmGNoPeOcVEyVr96Ykef5eizcmi/view?usp=sharing" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+      <div class="skills-container" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-offset="500">
+        <div class="skills-content">
+          <h1>Skills</h1>
+        </div>
+
+        <!-- Technical Skills Chart -->
+        <!-- Technical Skills Modern -->
+<div class="technical-skills-modern">
+  <!-- <h2 class="section-title">Technical Skills</h2> -->
+  
+  <div class="skills-grid-modern">
+    <div class="skill-card-modern">
+      <span class="skill-icon-modern">💻</span>
+      <h3 class="skill-title-modern">Web Development</h3>
+      <ul class="skill-list-modern">
+        <li>HTML, CSS, and JavaScript for building responsive and functional web interfaces</li>
+        <li>Backend development using PHP and Laravel</li>
+        <li>Database management and integration with MySQL</li>
+        <li>Basic understanding of web application architecture and workflows</li>
+      </ul>
+      <div class="tech-badges-modern">
+        <span class="badge-modern">HTML</span>
+        <span class="badge-modern">CSS</span>
+        <span class="badge-modern">JavaScript</span>
+        <span class="badge-modern">PHP</span>
+        <span class="badge-modern">Laravel</span>
+        <span class="badge-modern">MySQL</span>
+      </div>
+    </div>
+
+    <div class="skill-card-modern">
+      <span class="skill-icon-modern">✍️</span>
+      <h3 class="skill-title-modern">Technical Writing & Documentation</h3>
+      <ul class="skill-list-modern">
+        <li>Technical documentation for software systems and applications</li>
+        <li>Writing clear and structured technical explanations</li>
+        <li>Creating step-by-step guides for system usage and workflows</li>
+        <li>Translating technical concepts into concise, easy-to-understand documentation</li>
+        <li>Maintaining documentation consistency and clarity</li>
+      </ul>
+      <div class="tech-badges-modern">
+        <span class="badge-modern">Documentation</span>
+        <span class="badge-modern">Tutorials</span>
+        <span class="badge-modern">Guides</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- Productivity Tools -->
+        <!-- <div class="productivity-tools" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-offset="400">
+          <h2 class="section-title">Productivity Tools</h2>
+          <div class="tools-grid">
+            <div class="tool-card">
+              <div class="tool-header">
+                <div class="tool-icon">📊</div>
+                <h3 class="tool-name">Microsoft Office</h3>
+              </div>
+              <ul class="tool-items">
+                <li>Word</li>
+                <li>PowerPoint</li>
+                <li>Excel</li>
+              </ul>
+            </div>
+
+            <div class="tool-card">
+              <div class="tool-header">
+                <div class="tool-icon">☁️</div>
+                <h3 class="tool-name">Google Workspace</h3>
+              </div>
+              <ul class="tool-items">
+                <li>Docs</li>
+                <li>Slides</li>
+                <li>Sheets</li>
+                <li>Drive</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="project-container">
+        <div class="project">
+          <h1>Project</h1>
+        </div>
+
+        <div class="projects-grid">
+
+           <!-- Laundryku -->
+           <div class="project-card" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="400">
+            <img src="./asset/laundryku.png" alt="Notes App" class="project-image" />
+            <div class="project-content">
+              <h2>Ordering laundry services</h2>
+              <p class="project-date">Jun 2025</p>
+              <p class="project-description">Created a laundry service ordering website using PHP and MySQL with features for managing orders, customer data, and service status.</p>
+              <a href="https://github.com/FarhanHadi8/laundryku" class="project-link" target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+            </div>
+          </div>
+
+          <!-- Restaurant Catalog -->
+          <div class="project-card" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="400">
+            <img src="./asset/Restaurant.jpg" alt="Restaurant Catalog" class="project-image" />
+            <div class="project-content">
+              <h2>Restaurant Catalog Page</h2>
+              <p class="project-date">Apr 2024</p>
+              <p class="project-description">Created a catalog page by applying a responsive layout and responsive display to mobile devices.</p>
+              <a href="https://github.com/farhann1708/katalog-restorant" class="project-link" target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+            </div>
+          </div>
+
+          <!-- Notes App -->
+          <div class="project-card" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="400">
+            <img src="./asset/notes app.jpg" alt="Notes App" class="project-image" />
+            <div class="project-content">
+              <h2>Building Notes App</h2>
+              <p class="project-date">Mar 2024</p>
+              <p class="project-description">Created a notes app by applying layout using CSS Grid Layout and UI components using Web Components.</p>
+              <a href="https://github.com/farhann1708/notes-app" class="project-link" target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+            </div>
+          </div>
+
+          <!-- Bookkeeping Application -->
+          <div class="project-card" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="400">
+            <img src="./asset/bookself.jpg" alt="Bookkeeping Application" class="project-image" />
+            <div class="project-content">
+              <h2>Bookkeeping Application</h2>
+              <p class="project-date">Feb 2024</p>
+              <p class="project-description">Created an application with the theme of bookkeeping to manage and store data efficiently..</p>
+              <a href="https://github.com/farhann1708/book-self" class="project-link" target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="more-section" id="more">
+      <div class="container" data-aos="zoom-out-down" data-aos-duration="1000" data-aos-offset="400">
+        <!-- Personal Skills -->
+        <div class="section-header">
+          <h1 class="personal-skills">Personal Skills</h1>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i data-feather="star"></i>
+            </div>
+            <div class="card-text">
+              <h3>Communication</h3>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i data-feather="star"></i>
+            </div>
+            <div class="card-text">
+              <h3>Team Work</h3>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i data-feather="star"></i>
+            </div>
+            <div class="card-text">
+              <h3>Creativity</h3>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i data-feather="star"></i>
+            </div>
+            <div class="card-text">
+              <h3>Problem Solving</h3>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i data-feather="star"></i>
+            </div>
+            <div class="card-text">
+              <h3>Time Management</h3>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-wrapper">
+              <i data-feather="star"></i>
+            </div>
+            <div class="card-text">
+              <h3>Leadership</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="divider"></div>
+
+    <!-- Services -->
+<div class="section-header">
+  <h1 class="service">Services</h1>
+</div>
+
+<div class="services-grid">
+  <div class="service-card">
+    <div class="icon-wrapper">
+      <i data-feather="star"></i>
+    </div>
+    <div class="card-text">
+      <h3>Front-End Development</h3>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="icon-wrapper">
+      <i data-feather="star"></i>
+    </div>
+    <div class="card-text">
+      <h3>Web Development</h3>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="icon-wrapper">
+      <i data-feather="star"></i>
+    </div>
+    <div class="card-text">
+      <h3>Technical Writing & Documentation</h3>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="icon-wrapper">
+      <i data-feather="star"></i>
+    </div>
+    <div class="card-text">
+      <h3>Technical Content Development</h3>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <section class="contact-container" id="contact" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-offset="500">
+      <div>
+        <h1 class="form-title">Contact Form</h1>
+      </div>
+      <div class="alert" id="alert-message">
+        <p>Message Sent Successfully</p>
+      </div>
+      <div class="contact">
+        <form name="contact_form">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" name="name" />
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Enter your email" name="email" />
+          <label for="content">Content</label>
+          <textarea id="content" rows="6" placeholder="Write your content here" name="content"></textarea>
+          <button type="submit" class="btn-send">Send</button>
+          <div class="dots"></div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/farhan-hadi-oktaryono" target="_blank" rel="noopener noreferrer"><i data-feather="linkedin"></i></a>
+        <a href="https://github.com/farhann1708" target="_blank" rel="noopener noreferrer"><i data-feather="github"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=farhanhadi690@gmail.com" target="_blank" rel="noopener noreferrer"><i data-feather="mail"></i></a>
+        <a href="https://instagram.com/farhaannhd" target="_blank" rel="noopener noreferrer"><i data-feather="instagram"></i></a>
+        <a href="https://wa.me/6282113409066" target="_blank" rel="noopener noreferrer"><i class="bx bxl-whatsapp"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#more">More</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">F.Hadi</a>. | &copy; 2024</p>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
